@@ -1,0 +1,5 @@
+venv
+venv/
+__pycashe__/
+
+.idea/
