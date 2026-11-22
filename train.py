@@ -38,6 +38,7 @@ def collect_experiencw(episodes: int, seed: int = 42) -> None:
     print(f"Best score: {max(scores)}")
     print(f"Transitions collected: {len(replay)}")
     print(f"Example transition: {replay[0]}")
+    print(f"Total episodes: {episodes}")
 
 
 def main() -> None:
